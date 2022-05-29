@@ -1,0 +1,303 @@
+html {
+    font-family: "Lato", "Helvetica Neue","Helvetica", "Arial", sans-serif;
+}
+body {
+    background-color: white;
+    margin: 0;
+}
+p{
+    color: #5d6660;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Lato", "Helvetica Neue","Helvetica", "Arial", sans-serif;
+    
+}
+header {
+    height: 80px;
+    background-color: white;
+}
+#header-container {
+    width: 75%;
+    margin: auto;
+}
+.col-3 {
+    width: 33%;
+    float: left;
+}
+.logo {
+    padding-top: 30px;
+}
+.menu {
+    margin-top: 30px;
+}
+.menu li {
+    list-style-type: none;
+    display: inline;
+    font-size: 0.85em;
+    color: #8e8e8e;
+    padding-right: 30px;
+}
+.getStartedButton {
+    background-color: #6dc77a;
+    border-radius: 28px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 26px; /*top and bottom - 10px, right and left - 26px*/
+    margin-top: 20px;
+    /* display: inline-block; */
+    font-size: 17px;
+    float: right;
+}
+#top-section-main {
+    background-image: url("Images/friends.jpg");
+    background-size: cover;
+    height: 650px;
+    border: none;
+}
+#top-section-content {
+    width: 60%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+#top-section-content h1 {
+    margin-top: 0;
+    margin-right: 0;
+    padding-top: 80px;
+    background-repeat: no-repeat;
+    font-size: 3.8em;
+    font-weight: 1;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#top-section-content p {
+    margin-top: 0;
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+}
+.play-button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 60px 0 100px 0;    
+}
+.main-form h5 {
+    font-family: sans-serif;
+    font-size: 0.9em;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+.main-form input {
+    margin: 0;
+    width: 30%;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-left: 10px;
+    font-weight: 100;
+    border: none;
+    border-radius: 5px;
+}
+.main-form button {
+    margin: 0;
+    width: 30%;
+    height: 32px;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 100;
+    border: none;
+    border-radius: 5px;
+    background-color: #6dc77a;
+    color: white;
+}
+
+#feature-section {
+    padding-top: 100px;
+}
+.feature-section-title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    width: 65%;
+    line-height: 1.3em;
+    
+}
+.feature-content {
+    padding-top: 100px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.feature-content .col-3 img {
+    width: 100%;
+}
+.feature-content .col-3 p {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+.feature-content .col-3 {
+    padding: 10px;
+    width: 30%;
+}
+.col2 {
+    float: left;
+    width: 50%;
+}
+#showcase-1-container {
+    padding-top: 100px;
+    background-color: #f6f8fa;
+    width: 100%;
+    clear: both;
+}
+.showcase {
+    width: 75%;
+    overflow: auto;
+    margin: auto;
+}
+.showcase-1-image {
+    width: 100%;
+}
+.feature-text {
+    padding-top: 250px;
+    padding-left: 180px;
+}
+.iphone-heading {
+    width: 90%;
+    margin: auto;
+    font-weight: 100;
+    line-height: 1.5em;
+}
+.iphone-para {
+    padding-left: 20px;
+}
+#showcase-2-container {
+    padding-top: 100px;
+    background-color: #faf0f0;
+    width: 100%;
+    clear: both;
+}
+.feature-text2 {
+    padding-top: 250px;
+    padding-left: 50px;
+    width: 65%;
+}
+.col-1 {
+    width: 80%;
+    margin: auto;
+}
+#call-to-action {
+    background-image: url("Images/darkdesk.png");
+    background-position: 50% 50%;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.action-title {
+    font-size: 3.7em;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 0;
+    padding-top: 120px;
+    padding-bottom: 5px;
+}
+.col-1 p {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+.signupBTN {
+    background-color: #6dc77a;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 70px;
+    text-decoration: none;
+    border-radius: 12px 3px 12px 3px;
+}
+.signupBTN:hover {
+    background-color: #5cbf2a;   
+}
+.signupform {
+    background-color: #f6f8fa;
+    margin-right: 200px;
+    padding: 0px 60px 10px 60px;
+}
+.signupform h6{
+    color: black;
+    padding-top: 15px;
+    font-size: 1em;
+    text-align: center;
+}
+.top-margin {
+    padding-top: 80px;
+    width: 65%;
+    margin: auto;
+}
+input {
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    border: none;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+button {
+    width: 100%;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0;
+    background-color: #6dc77a;
+    color: white;
+    border: none;
+    margin-top: 15px;
+}
+footer {
+    background-color: black;
+    clear: both;
+    height: 500px;
+    background-image: url("Images/footerbg.png");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.social-footer {
+    width: 33%;
+    float: right;
+}
+.social-footer:hover {
+    background-color: black;
+    opacity: 0.4;
+}
+.center {
+    width: 50px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.copyright {
+    color: #ffffff;
+    font-size: 1em;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    display: block;
+    padding-top: 140px;
+}
